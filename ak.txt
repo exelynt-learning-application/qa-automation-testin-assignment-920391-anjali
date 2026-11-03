@@ -1,0 +1,192 @@
+# Assignment: SDLC Phases and Software Development Models
+
+## 1. Introduction
+
+SDLC (Software Development Life Cycle) is a structured process used to develop high-quality software applications. It defines different stages, from gathering requirements to software maintenance.
+
+The main goal of SDLC is to deliver reliable software within the planned time and budget.
+
+## 2. Explain the SDLC Phases
+
+### Phase 1: Requirement Gathering
+- Collect requirements from clients and stakeholders.
+- Understand project goals and expectations.
+- Identify functional and non-functional requirements.
+- Prepare the Software Requirement Specification (SRS).
+
+### Phase 2: Planning
+- Estimate project cost and duration.
+- Identify resources and team members.
+- Define project scope.
+- Identify potential risks.
+
+### Phase 3: Design
+- Prepare system architecture.
+- Design database structures.
+- Create UI/UX wireframes.
+- Define technical specifications.
+
+### Phase 4: Development
+- Developers write application code.
+- Implement frontend and backend functionality.
+- Integrate databases and APIs.
+- Perform initial code reviews.
+
+### Phase 5: Testing
+- QA engineers test application functionality.
+- Identify and report bugs.
+- Perform functional and non-functional testing.
+- Verify that requirements are satisfied.
+
+### Phase 6: Deployment
+- Release the application to the production environment.
+- Configure servers and databases.
+- Perform smoke testing after deployment.
+- Make the application available to users.
+
+### Phase 7: Maintenance
+- Fix production bugs.
+- Improve application performance.
+- Release updates and new features.
+- Monitor application stability.
+
+## 3. Comparison of Waterfall, V-Model and Agile
+
+| Comparison | Waterfall | V-Model | Agile |
+|---|---|---|---|
+| Approach | Sequential | Sequential with testing phases | Iterative and incremental |
+| Requirements | Fixed initially | Fixed initially | Can evolve |
+| Testing | Mostly after development | Planned alongside development | Continuous |
+| Flexibility | Low | Low | High |
+| Customer involvement | Limited | Limited | Continuous |
+| Delivery | Usually one major release | Usually one major release | Frequent releases |
+| Documentation | Extensive | Extensive | As needed |
+| Best suited for | Stable requirements | Projects needing strict validation | Changing requirements |
+
+## 4. Explain Each Development Model
+
+### A. Waterfall Model
+
+The Waterfall model follows a step-by-step approach. Each phase must be completed before the next phase begins.
+
+**Phases:**
+1. Requirements
+2. Design
+3. Development
+4. Testing
+5. Deployment
+6. Maintenance
+
+**Advantages:**
+- Easy to understand and manage.
+- Clear documentation.
+- Suitable for projects with fixed requirements.
+
+**Disadvantages:**
+- Difficult to make changes later.
+- Testing happens relatively late.
+- Bugs discovered late can be expensive to fix.
+
+### B. V-Model
+
+The V-Model is also called the Verification and Validation Model. Each development phase has a corresponding testing phase.
+
+**Development and testing relationship:**
+
+| Development Phase | Corresponding Testing Phase |
+|---|---|
+| Business Requirements | Acceptance Testing |
+| System Requirements | System Testing |
+| High-Level Design | Integration Testing |
+| Low-Level Design | Unit Testing |
+| Coding | Implementation |
+
+**Advantages:**
+- Testing is planned early.
+- Clear testing stages.
+- Early identification of requirement-related defects.
+
+**Disadvantages:**
+- Less flexible when requirements change.
+- Not ideal for frequently changing projects.
+
+### C. Agile Model
+
+Agile is an iterative development approach in which software is developed and delivered in small increments called iterations or sprints.
+
+**Agile process:**
+1. Requirement analysis
+2. Sprint planning
+3. Development
+4. Testing
+5. Sprint review
+6. Retrospective
+
+**Advantages:**
+- Supports changing requirements.
+- Frequent software delivery.
+- Continuous customer feedback.
+- Bugs can be identified early.
+
+**Disadvantages:**
+- Requires regular communication.
+- Scope can change frequently.
+- Requires active team collaboration.
+
+## 5. QA's Role in Agile/Scrum
+
+QA (Quality Assurance) plays an important role in ensuring that software meets quality standards throughout the development process.
+
+### QA Responsibilities
+
+1. Requirement Analysis – Understand requirements and identify gaps.
+2. Test Planning – Prepare test plans and test scenarios.
+3. Test Case Preparation – Write positive and negative test cases.
+4. Sprint Testing – Test features developed during each sprint.
+5. Bug Reporting – Report defects with steps to reproduce.
+6. Retesting – Verify that reported bugs have been fixed.
+7. Regression Testing – Ensure existing features still work.
+8. Automation Testing – Automate repetitive test scenarios where appropriate.
+9. Sprint Review – Validate completed features against acceptance criteria.
+10. Quality Reporting – Share test results and remaining risks with the team.
+
+### QA Activities in Scrum Events
+
+| Scrum Event | QA Responsibility |
+|---|---|
+| Sprint Planning | Understand requirements and estimate testing effort |
+| Daily Stand-up | Share testing progress and blockers |
+| Sprint Execution | Execute test cases and report bugs |
+| Sprint Review | Validate completed functionality |
+| Sprint Retrospective | Suggest improvements to testing processes |
+
+## 6. Real-World Example
+
+Consider an e-commerce application.
+
+- Requirement Gathering: Users should be able to register and purchase products.
+- Planning: Define project timeline and resources.
+- Design: Create product pages, cart and checkout screens.
+- Development: Implement login, product search and payment.
+- Testing: Verify login, cart, payment and order confirmation.
+- Deployment: Release the application to production.
+- Maintenance: Fix reported bugs and improve performance.
+
+In Agile, these features can be delivered in multiple sprints instead of waiting for the entire application to be completed.
+
+## 7. Conclusion
+
+SDLC provides a structured approach to software development. Waterfall is suitable for projects with stable requirements, V-Model focuses on verification and validation, and Agile supports continuous development and changing requirements.
+
+QA is essential in every development model because it helps identify defects, improve software quality, reduce risks and ensure customer satisfaction.
+
+## 8. Final Submission Checklist
+
+- [x] SDLC phases explained.
+- [x] Waterfall model explained.
+- [x] V-Model explained.
+- [x] Agile model explained.
+- [x] Comparison table prepared.
+- [x] QA role in Agile/Scrum explained.
+- [x] Real-world example included.
+- [x] Conclusion provided.
