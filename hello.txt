@@ -1,0 +1,161 @@
+# Assignment: Bug Life Cycle and Bug Reporting
+
+## 1. Bug Life Cycle
+
+The Bug Life Cycle is the process followed by a QA tester and development team from identifying a defect until it is fixed and closed.
+
+### Bug Life Cycle Stages
+
+1. **New:** Tester identifies a bug and reports it.
+2. **Assigned:** Bug is assigned to a developer.
+3. **Open:** Developer starts investigating the issue.
+4. **Fixed:** Developer fixes the reported bug.
+5. **Retesting:** Tester verifies the fix.
+6. **Verified:** Tester confirms the bug is fixed.
+7. **Closed:** Bug is marked as completed.
+8. **Reopened:** If the issue still exists, the tester reopens it.
+9. **Rejected:** Developer rejects an invalid or duplicate bug.
+10. **Deferred:** Bug fixing is postponed to a future release.
+
+### Bug Life Cycle Flow
+
+New → Assigned → Open → Fixed → Retesting → Verified → Closed
+
+If the bug is not fixed:
+
+Retesting → Reopened → Assigned → Fixed
+
+---
+
+## 2. Sample Bug Reports
+
+### Bug Report 1: Login Button Not Working
+
+**Bug ID:** BUG-001
+
+**Title:** Login button does not respond when valid credentials are entered.
+
+**Module:** Login
+
+**Environment:** Chrome Browser, Windows 11
+
+**Steps to Reproduce:**
+1. Open the demo website.
+2. Navigate to the Login page.
+3. Enter a valid email address.
+4. Enter a valid password.
+5. Click the Login button.
+
+**Expected Result:**
+User should successfully log in and redirect to the dashboard.
+
+**Actual Result:**
+Clicking the Login button does not perform any action, and the user remains on the Login page.
+
+**Severity:** High
+
+**Priority:** High
+
+**Status:** New
+
+---
+
+### Bug Report 2: Search Works with Empty Input
+
+**Bug ID:** BUG-002
+
+**Title:** Search button redirects users without entering a search keyword.
+
+**Module:** Search
+
+**Environment:** Chrome Browser, Windows 11
+
+**Steps to Reproduce:**
+1. Open the demo website.
+2. Navigate to the home page.
+3. Keep the search field empty.
+4. Click the Search button.
+
+**Expected Result:**
+The application should display a validation message asking the user to enter a search keyword.
+
+**Actual Result:**
+The application redirects the user to the search or courses page without entering any keyword.
+
+**Severity:** Medium
+
+**Priority:** High
+
+**Status:** New
+
+---
+
+### Bug Report 3: User Can Submit an Empty Registration Form
+
+**Bug ID:** BUG-003
+
+**Title:** Registration form accepts empty mandatory fields.
+
+**Module:** User Registration
+
+**Environment:** Chrome Browser, Windows 11
+
+**Steps to Reproduce:**
+1. Open the demo website.
+2. Navigate to the Registration page.
+3. Leave all mandatory fields empty.
+4. Click the Register button.
+
+**Expected Result:**
+The application should display validation messages for all required fields and prevent registration.
+
+**Actual Result:**
+The registration form allows submission without entering mandatory information.
+
+**Severity:** High
+
+**Priority:** High
+
+**Status:** New
+
+---
+
+## 3. Severity and Priority Explanation
+
+### Severity
+
+- Critical: Application crashes or major functionality becomes unavailable.
+- High: Important functionality does not work.
+- Medium: Functionality works incorrectly but a workaround may exist.
+- Low: Minor UI or cosmetic issue.
+
+### Priority
+
+- High: Needs immediate fixing.
+- Medium: Should be fixed in the current development cycle.
+- Low: Can be fixed in a future release.
+
+---
+
+## 4. Bug Report Summary
+
+| Bug ID | Bug Title | Severity | Priority |
+|---|---|---|---|
+| BUG-001 | Login button not working | High | High |
+| BUG-002 | Search works with empty input | Medium | High |
+| BUG-003 | Empty registration form submission | High | High |
+
+---
+
+## 5. Final Conclusion
+
+Bug Life Cycle helps QA testers and developers manage software defects systematically. Proper bug reporting helps developers reproduce and fix issues efficiently.
+
+A good bug report must contain a clear title, environment, reproduction steps, expected result, actual result, severity, priority, and supporting screenshots.
+
+**Assignment Deliverables:**
+- Bug Life Cycle explanation
+- Bug Life Cycle flow
+- Three sample bug reports
+- Severity and priority classification
+- Bug report summary table
